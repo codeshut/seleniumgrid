@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15908" started-at="2019-05-18T13:30:08Z" finished-at="2019-05-18T13:30:24Z">
+    <groups>
+    </groups>
+    <test name="gridTest" duration-ms="15908" started-at="2019-05-18T13:30:08Z" finished-at="2019-05-18T13:30:24Z">
+      <class name="seleniumgrid.SeleniumGridTest">
+        <test-method status="PASS" signature="testGrid(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:seleniumgrid.SeleniumGridTest@396a51ab]" name="testGrid" duration-ms="9274" started-at="2019-05-18T13:30:09Z" data-provider="getData" finished-at="2019-05-18T13:30:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGrid -->
+        <test-method status="PASS" signature="testGrid(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:seleniumgrid.SeleniumGridTest@396a51ab]" name="testGrid" duration-ms="15789" started-at="2019-05-18T13:30:09Z" data-provider="getData" finished-at="2019-05-18T13:30:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGrid -->
+      </class> <!-- seleniumgrid.SeleniumGridTest -->
+    </test> <!-- gridTest -->
+  </suite> <!-- Suite -->
+</testng-results>
